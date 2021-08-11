@@ -1,0 +1,22 @@
+2021-08-07 17:19:30.607  INFO 19064 --- [main] com.microsvc.static2.Static2Application  : Starting Static2Application using Java 11.0.2 on OMEN-15-ek0018tx with PID 19064 (/home/niranjanv/Downloads/static2/bin/main started by niranjanv in /home/niranjanv/Downloads/static2)
+2021-08-07 17:19:30.609  INFO 19064 --- [main] com.microsvc.static2.Static2Application  : No active profile set, falling back to default profiles: default
+2021-08-07 17:19:31.862  INFO 19064 --- [main] com.microsvc.static2.Static2Application  : Started Static2Application in 1.627 seconds (JVM running for 1.92)
+2021-08-07 17:19:49.831  INFO 19064 --- [http-nio-7051-exec-1] com.microsvc.static2.Controller          : microsvc-static-2 : health
+2021-08-07 17:19:53.089  INFO 19064 --- [http-nio-7051-exec-2] com.microsvc.static2.Controller          : callOtherService
+2021-08-07 17:19:53.279  INFO 19064 --- [http-nio-7051-exec-2] com.microsvc.static2.Controller          : callOtherService: callOtherService: static-1 : healthy > color: green
+2021-08-07 17:20:14.422  INFO 19064 --- [http-nio-7051-exec-3] com.microsvc.static2.Controller          : microsvc-static-2 : health
+2021-08-07 18:06:48.298  INFO 26526 --- [Test worker] c.m.static2.Static2ApplicationTests      : Starting Static2ApplicationTests using Java 11.0.11 on OMEN-15-ek0018tx with PID 26526 (started by root in /home/niranjanv/Downloads/static2)
+2021-08-07 18:06:48.300  INFO 26526 --- [Test worker] c.m.static2.Static2ApplicationTests      : No active profile set, falling back to default profiles: default
+2021-08-07 18:06:49.548  INFO 26526 --- [Test worker] c.m.static2.Static2ApplicationTests      : Started Static2ApplicationTests in 1.468 seconds (JVM running for 2.229)
+2021-08-07 18:11:36.191  INFO 27196 --- [Test worker] c.m.static2.Static2ApplicationTests      : Starting Static2ApplicationTests using Java 11.0.11 on OMEN-15-ek0018tx with PID 27196 (started by root in /home/niranjanv/Downloads/static2)
+2021-08-07 18:11:36.192  INFO 27196 --- [Test worker] c.m.static2.Static2ApplicationTests      : No active profile set, falling back to default profiles: default
+2021-08-07 18:11:37.463  INFO 27196 --- [Test worker] c.m.static2.Static2ApplicationTests      : Started Static2ApplicationTests in 1.49 seconds (JVM running for 2.2)
+2021-08-07 18:15:30.088  INFO 28374 --- [Test worker] c.m.static2.Static2ApplicationTests      : Starting Static2ApplicationTests using Java 11.0.11 on OMEN-15-ek0018tx with PID 28374 (started by root in /home/niranjanv/Downloads/static2)
+2021-08-07 18:15:30.091  INFO 28374 --- [Test worker] c.m.static2.Static2ApplicationTests      : No active profile set, falling back to default profiles: default
+2021-08-07 18:15:31.283  INFO 28374 --- [Test worker] c.m.static2.Static2ApplicationTests      : Started Static2ApplicationTests in 1.435 seconds (JVM running for 2.151)
+2021-08-07 18:40:23.398  INFO 31568 --- [Test worker] c.m.static2.Static2ApplicationTests      : Starting Static2ApplicationTests using Java 11.0.11 on OMEN-15-ek0018tx with PID 31568 (started by root in /home/niranjanv/Downloads/static2)
+2021-08-07 18:40:23.400  INFO 31568 --- [Test worker] c.m.static2.Static2ApplicationTests      : No active profile set, falling back to default profiles: default
+2021-08-07 18:40:24.653  INFO 31568 --- [Test worker] c.m.static2.Static2ApplicationTests      : Started Static2ApplicationTests in 1.492 seconds (JVM running for 2.213)
+2021-08-07 18:50:59.053  INFO 32496 --- [Test worker] c.m.static2.Static2ApplicationTests      : Starting Static2ApplicationTests using Java 11.0.11 on OMEN-15-ek0018tx with PID 32496 (started by root in /home/niranjanv/Downloads/static2)
+2021-08-07 18:50:59.055  INFO 32496 --- [Test worker] c.m.static2.Static2ApplicationTests      : No active profile set, falling back to default profiles: default
+2021-08-07 18:51:00.233  INFO 32496 --- [Test worker] c.m.static2.Static2ApplicationTests      : Started Static2ApplicationTests in 1.412 seconds (JVM running for 2.183)

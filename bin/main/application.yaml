@@ -1,0 +1,26 @@
+spring:
+   application:
+            name: microsvc-static-2
+   main:
+     allow-bean-definition-overriding: true
+
+server:
+  port: 7051
+app:
+ env:
+  color: white
+  servUrl1: http://localhost:7050/microsvc-static-1
+  
+logging:
+    file:
+      name: logs/microsvc-static-2/microsvc-static-2.log
+      path: logs/microsvc-static-2
+    max-size: 2048
+    max-history: 5
+    level:
+        root: ERROR
+        org.springframework.web: ERROR
+        com.microsvc: INFO
+        org.hibernate: ERROR
+    pattern:
+       console: 
