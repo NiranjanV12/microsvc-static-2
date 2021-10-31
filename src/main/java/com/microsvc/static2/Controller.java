@@ -11,7 +11,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import lombok.extern.java.Log;
 
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*", allowedHeaders = "*")
 @Log
 @RequestMapping("/microsvc-static-2")
 
@@ -32,7 +32,7 @@ public Controller(WebClient.Builder webClientBuilder, ApplicationEnvironmentProp
 	@GetMapping("/health")
 	public String health() {
 		String returnStr = null;
-
+System.out.println("cccc");
 		try {
 			log.log(Level.INFO, "microsvc-static-2 : healthy");
 			returnStr= new StringBuffer("static-2 : healthy > color: ").append(props.getEnv().getColor()).toString();
